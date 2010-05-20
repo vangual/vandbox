@@ -55,6 +55,12 @@ externals:
     Modules/Aggro/libs/LibBanzai-2.0:
         url: svn://svn.wowace.com/wow/libbanzai-2-0/mainline/trunk 
         tag: latest
+    Modules/ShareConfig/libs/LibBase64-1.0:
+        url: git://git.wowace.com/wow/libbase64-1-0/mainline.git
+        tag: latest
+    Modules/ShareConfig/libs/LibCompress:
+        url: svn://svn.wowace.com/wow/libcompress/mainline/trunk
+        tag: latest
     Modules/VisualHeal/libs/LibHealComm-4.0:
         url: git://git.wowace.com/wow/libhealcomm-4-0/mainline.git
         tag: latest
@@ -96,6 +102,7 @@ move-folders:
     PitBull4/Modules/RestIcon: PitBull4_RestIcon
     PitBull4/Modules/RoleIcon: PitBull4_RoleIcon
     PitBull4/Modules/Runes: PitBull4_Runes
+	PitBull4/Modules/ShareConfig: PitBull4_ShareConfig
     PitBull4/Modules/Sounds: PitBull4_Sounds
     PitBull4/Modules/ThreatBar: PitBull4_ThreatBar
     PitBull4/Modules/Totems: PitBull4_Totems
